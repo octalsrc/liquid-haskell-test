@@ -2,10 +2,8 @@
 
 module MyLib where
 
-import Data.Set
+{-@ type TRUE = {v:Bool | v} @-}
 
-{-@ type Pos = {v:Int | 0 < v} @-}
-
-{-@ incr :: Pos -> Pos @-}
-incr :: Int -> Int
-incr x = x + 1
+{-@ example1 :: TRUE @-}
+example1 :: Bool
+example1 = True

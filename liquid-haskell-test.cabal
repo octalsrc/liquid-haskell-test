@@ -10,10 +10,6 @@ library
   hs-source-dirs:
       src
   build-depends:
-      liquid-prelude,
-      liquid-vector,
-      liquidhaskell,
-      base,
-      containers,
-      vector
+      liquidhaskell ==0.9.10.1,
+      base ==4.20.0.0
   default-language: Haskell2010
