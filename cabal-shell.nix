@@ -25,6 +25,15 @@ let
           testToolDepends = [ pkgs.z3 ];
           broken = false;
         });
+      time-compat = overrideCabal
+        super.time-compat
+        (old: {
+          version = "1.9.7";
+          # src = fetchTarball "https://hackage.haskell.org/package/time-compat-1.9.7/time-compat-1.9.7.tar.gz";
+          revision = "2";
+          sha256 = "sha256-yY++oh0DbDJjrxht8FabhCXIetNTsCE1N5R0Pk5jHcw=";
+          editedCabalFile = "sha256-8L/xWvb6rv82tnnmuBD6cVNLL4WpG/mNdUHaxqRpsg8=";
+        });
     };
   };
 

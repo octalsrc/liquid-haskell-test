@@ -143,7 +143,7 @@ constraints: any.Cabal ==3.12.0.0,
              any.th-utilities ==0.2.5.0,
              any.these ==1.2.1,
              any.time ==1.12.2,
-             any.time-compat ==1.9.6.1,
+             any.time-compat ==1.9.7,
              any.transformers ==0.6.1.1,
              any.transformers-base ==0.4.6,
              any.transformers-compat ==0.7.2,
@@ -156,4 +156,4 @@ constraints: any.Cabal ==3.12.0.0,
              any.vector-stream ==0.1.0.1,
              any.void ==0.7.3,
              any.witherable ==0.4.2
-index-state: hackage.haskell.org 2024-09-03T16:55:33Z
+index-state: hackage.haskell.org 2024-11-09T17:56:52Z
